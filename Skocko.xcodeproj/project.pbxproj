@@ -344,10 +344,13 @@
 		ADC9B5C918AEDABC003F87E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Skocko/Skocko-Prefix.pch";
 				INFOPLIST_FILE = "Skocko/Skocko-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos8.4;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -355,10 +358,13 @@
 		ADC9B5CA18AEDABC003F87E5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Skocko/Skocko-Prefix.pch";
 				INFOPLIST_FILE = "Skocko/Skocko-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos8.4;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

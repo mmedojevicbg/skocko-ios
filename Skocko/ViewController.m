@@ -81,6 +81,12 @@
     [buttonChoice5 addTarget:self action:@selector(buttonChoiceClick:) forControlEvents:UIControlEventTouchUpInside];
     [buttonChoice6 addTarget:self action:@selector(buttonChoiceClick:) forControlEvents:UIControlEventTouchUpInside];
     [buttonReset addTarget:self action:@selector(buttonResetClick:) forControlEvents:UIControlEventTouchUpInside];
+    buttonChoice1.imageEdgeInsets = UIEdgeInsetsMake(10, 10, 10, 10);
+    buttonChoice2.imageEdgeInsets = UIEdgeInsetsMake(10, 10, 10, 10);
+    buttonChoice3.imageEdgeInsets = UIEdgeInsetsMake(10, 10, 10, 10);
+    buttonChoice4.imageEdgeInsets = UIEdgeInsetsMake(10, 10, 10, 10);
+    buttonChoice5.imageEdgeInsets = UIEdgeInsetsMake(10, 10, 10, 10);
+    buttonChoice6.imageEdgeInsets = UIEdgeInsetsMake(10, 10, 10, 10);
 }
 
 - (void)initObservers
