@@ -126,7 +126,7 @@
 }
 
 -(IBAction)buttonChoiceClick:(id)sender
-{
+{    
     choicesCollectionViewDelegate.choices = [gameEngine play:[NSNumber numberWithInt:[sender tag]]];
     [collectionViewChoices reloadData];
 }
