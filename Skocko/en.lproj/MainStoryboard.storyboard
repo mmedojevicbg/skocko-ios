@@ -94,7 +94,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8Ve-ee-QdX">
-                                <rect key="frame" x="5" y="509" width="304" height="39"/>
+                                <rect key="frame" x="5" y="509" width="304" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="26"/>
                                 <state key="normal" title="Nova igra &gt;">
@@ -181,14 +181,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="245" y="323"/>
         </scene>
     </scenes>
     <resources>
-        <image name="s1.png" width="512" height="512"/>
-        <image name="s2.png" width="600" height="573"/>
-        <image name="s3.png" width="240" height="260"/>
-        <image name="s4.png" width="240" height="260"/>
-        <image name="s5.png" width="208" height="206"/>
-        <image name="s6.png" width="240" height="260"/>
+        <image name="s1.png" width="180" height="180"/>
+        <image name="s2.png" width="180" height="180"/>
+        <image name="s3.png" width="180" height="180"/>
+        <image name="s4.png" width="180" height="180"/>
+        <image name="s5.png" width="180" height="180"/>
+        <image name="s6.png" width="180" height="180"/>
     </resources>
 </document>
